@@ -27,6 +27,7 @@ ROC-AUC: Measures how well the model can distinguish between the classes (diabet
 For a diabetes prediction model, the data typically involves health-related features such as age, BMI, blood pressure, glucose levels, and family history. Key considerations include:
 Data Sources:
 Public Health Datasets: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv
+Food Environment Atlas: https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/#Current%20Version
 Data Collection and Preprocessing:
 Data Cleaning: Handle missing values (imputation), outliers, and duplicates.
 Feature Engineering: Create new features from existing ones (e.g., age groups, BMI categories).
@@ -37,7 +38,7 @@ Real-time APIs: If real-time predictions are needed, consider delivering data th
 Batch Processing: For periodic predictions, the data can be processed in batches (e.g., daily or weekly predictions) and stored in a database or served through a report.
 Cloud Data Storage: Use cloud platforms (AWS, Google Cloud, Azure) to store large datasets securely and ensure scalability.
 
-3. Back-End (ETL)
+4. Back-End (ETL)
 
 The team will use the following ETL Process for Diabetes Prediction:
 Extract:
