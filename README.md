@@ -50,7 +50,9 @@ To measure model performance, we will evaluate:
 1. **Public Health Datasets:**  
    [Diabetes Health Indicators Dataset (BRFSS)](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv)  
 2. **Food Environment Atlas:**  
-   [Data on Access to Healthy Foods](https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/#Current%20Version)  
+   [Data on Access to Healthy Foods](https://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads/#Current%20Version)
+   Data Source: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+   Please see this link for data definitions for each feature, i.e. for the target diabetes binary, 1= respondent has diabetes, 0 = does not have diabetes.
 
 ### **Data Preprocessing Steps**
 1. **Data Cleaning:** Handle missing values, outliers, and duplicates.  
